@@ -12,7 +12,7 @@ public class MyFirstProg {
         Point p1 = new Point(2, 3);
         Point p2 = new Point(5, 4);
 
-        System.out.println("Distance between points P1(" + p1.x +"," + p1.y + ") and P2(" + p2.x + "," + p2.y + ") equals " + distance (p1, p2));
+        System.out.println("Distance between points P1(" + p1.x +"," + p1.y + ") and P2(" + p2.x + "," + p2.y + ") equals " + p1.distance (p2));
 
     }
 
