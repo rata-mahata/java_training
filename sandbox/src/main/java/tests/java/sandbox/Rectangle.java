@@ -1,3 +1,5 @@
+package tests.java.sandbox;
+
 public class Rectangle {
     double a;
     double b;

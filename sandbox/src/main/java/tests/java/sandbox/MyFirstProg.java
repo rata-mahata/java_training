@@ -1,3 +1,5 @@
+package tests.java.sandbox;
+
 public class MyFirstProg {
 
     public static void main(String[] args) {
