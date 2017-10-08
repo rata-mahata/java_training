@@ -25,7 +25,7 @@ public class ApplicationManager {
         sessionHelper = new SessionHelper(wd);
         groupHelper = new GroupHelper(wd);
         contactHelper = new ContactHelper(wd);
-        NavigationHelper navigationHelper = new NavigationHelper(wd);
+        navigationHelper = new NavigationHelper(wd);
         sessionHelper.login("admin", "secret");
     }
 

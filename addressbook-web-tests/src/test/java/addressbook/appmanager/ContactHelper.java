@@ -43,4 +43,16 @@ public class ContactHelper extends HelperBase {
     public void initCreateContact() {
         wd.findElement(By.linkText("add new")).click();
     }
+
+    public void initModifyContact() {
+        click(By.xpath("//table[@id='maintable']/tbody/tr[3]/td[8]/a/img"));
+    }
+
+    public void submitModifyForm() {
+        click(By.name("update"));
+    }
+
+    public void confirmContactDelete() {
+        wd.switchTo().alert().accept();
+    }
 }
